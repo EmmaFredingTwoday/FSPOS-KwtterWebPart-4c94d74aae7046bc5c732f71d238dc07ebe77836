@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fspos-kwitter-client-side-solution",
+    "id": "918c2816-314b-40a5-81ab-8c2068484f62",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FSPOS-Kwitter description"
+      },
+      "longDescription": {
+        "default": "FSPOS-Kwitter description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fspos-kwitter Feature",
+        "description": "The feature that activates elements of the fspos-kwitter solution.",
+        "id": "abcbc9a1-1572-46e0-96fa-7797b2e1d581",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fspos-kwitter.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fspos-kwitter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fsposKwitter/FsposKwitterWebPart.js",
+          "manifest": "./src/webparts/fsposKwitter/FsposKwitterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FsposKwitterWebPartStrings": "lib/webparts/fsposKwitter/loc/{locale}.js"
+  }
+}

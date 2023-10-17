@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "fspos-kwitter",
+    "libraryId": "918c2816-314b-40a5-81ab-8c2068484f62",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "FSPOS-Kwitter",
+    "solutionShortDescription": "FSPOS-Kwitter description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
